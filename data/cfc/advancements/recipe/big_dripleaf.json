@@ -2,23 +2,20 @@
 	"parent": "cfc:root",
 	"criteria":
 	{
-		"chest":
+		"dripleaf":
 		{
 			"trigger": "minecraft:inventory_changed",
 			"conditions":
 			{
 				"items": 
 				[
-					{
-						"items": ["minecraft:chest"],
-						"count": 4
-					}
+					{"items": ["minecraft:big_dripleaf"]}
 				]
 			}
 		}
 	},
 	"rewards":
 	{
-		"recipes": ["cfc:chest"]
+		"recipes": ["cfc:spore_blossom"]
 	}
 }
